@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 16px 24px;
+}
+
+section{
+    width: 100%;
+}
+
+div#banderas {
+    width: 100%;
+    max-width: 968px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:24px
+  }
+
+  div#banderas img{
+    object-fit: contain;
+    width: 120px;
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
